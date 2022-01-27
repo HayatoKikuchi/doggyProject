@@ -5,7 +5,6 @@
 #define _PI 3.1415926
 #define Radians(x) x/360.0*2.0*_PI
 #define Degrees(x) x/(2.0*_PI)*360.0
-#define ErrorRate(x,y,rate) ((1.0 - rate)*y < x && x < (1.0 + rate)*y)
 
 struct coord
 {
